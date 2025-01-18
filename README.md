@@ -13,8 +13,8 @@ This CLI program fits a Gaussian Mixture Model (GMM) to data, evaluates differen
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone git@github.com:ramonamezquita/gmm.git
+   cd gmm
    ```
 
 2. Install required dependencies:
