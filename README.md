@@ -29,7 +29,7 @@ This CLI program fits a Gaussian Mixture Model (GMM) to data, evaluates differen
 Run the CLI with the following command:
 
 ```bash
-python gmm_cli.py --filename <path_to_csv> [options]
+python analyze.py --filename <path_to_csv> [options]
 ```
 
 ### Required Arguments
@@ -54,7 +54,7 @@ Suppose you have a CSV file `data.csv` containing the following data:
 You can run the program like this:
 
 ```bash
-python gmm_cli.py --filename data.csv --start 2 --end 5
+python analyze.py --filename data.csv --start 2 --end 5
 ```
 
 The program will output the best model based on the AIC score, including the log-likelihood and other parameters.
