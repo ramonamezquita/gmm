@@ -60,7 +60,3 @@ python analyze.py --filename data.csv --start 2 --end 5
 The program will output the best model based on the AIC score, including the log-likelihood and other parameters.
 
 ---
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
